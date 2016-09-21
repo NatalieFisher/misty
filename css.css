@@ -1,0 +1,207 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+* {
+-moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: Bitter, serif;
+}
+
+body {
+    font-family: Bitter, serif;
+}
+
+header {
+    background-color: #75a2d9;
+    background-size: cover;
+    height: 70px;
+    padding: 20px 10px;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.intro {
+    margin-top: 50px;
+
+}
+
+h2 {
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #161616;
+
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5em;
+    color: #222222;
+}
+
+.textblock {
+    display: block;
+    width: 50%;
+    float: left;
+    padding-right: 32px;
+}
+
+.picblock {
+    display: block;
+    width: 50%;
+    float: right;
+}
+
+.quote {
+    margin: 80px auto 0 auto;
+    width: 70%;
+}
+
+blockquote {
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+    line-height: 1.25em;
+}
+
+.dash {
+    font-size: 16px;
+    line-height: 1.25em;
+}
+
+.quoteby {
+    font-size: 16px;
+}
+
+.form {
+    margin-top: 75px;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form {
+    width: 400px;
+    margin: 0 auto;
+    border: 2px solid #75a2d9;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    height: 50px;
+    margin-top: 10px;
+    padding-left: 10px;
+    border: 1px solid #c6c6c6;
+    color: black;
+    font-size: 16px;
+}
+
+input:first-child {
+    margin-top: 0;
+}
+
+input[type="submit"] {
+    background-color: #75a2d9;
+    border-color: #75a2d9;
+    font-size: 18px;
+    color: white;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #c1c1c1;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #c1c1c1;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #c1c1c1;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #c1c1c1;
+}
+
+footer {
+    background-color: #222222;
+    height: 70px;
+    margin-top: 70px;
+}
+
+.footer {
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+}
